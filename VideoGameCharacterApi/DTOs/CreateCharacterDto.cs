@@ -1,12 +1,10 @@
 ﻿namespace VideoGameCharacterApi.DTOs
 {
-    public class GetCharacterDto
+    public class CreateCharacterDto
     {
-        public int Id { get; set; }
+        
         public string Name { get; set; } = string.Empty;
         public string Game { get; set; } = string.Empty;
         public string Role { get; set; } = string.Empty;
-
-
     }
 }
